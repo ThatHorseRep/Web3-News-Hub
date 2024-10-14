@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ThatHorseRep/Web3-News-Hub)
-- Live Site URL: [Add live site URL here](https://thathorserep.github.io/Web3-News-Hub/)
+- Solution URL: [https://github.com/ThatHorseRep/Web3-News-Hub](https://github.com/ThatHorseRep/Web3-News-Hub)
+- Live Site URL: [https://thathorserep.github.io/Web3-News-Hub/](https://thathorserep.github.io/Web3-News-Hub/)
 
 ## My process
 
