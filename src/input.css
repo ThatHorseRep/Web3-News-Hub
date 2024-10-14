@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Inter-Bold;
+  src: url('../assets/fonts/static/Inter-Bold.ttf');
+}
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url('../assets/fonts/static/Inter-ExtraBold.ttf');
+}
+@font-face {
+  font-family: Inter-Regular;
+  src: url('../assets/fonts/static/Inter-Regular.ttf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cards {
+    @apply grid grid-cols-3 gap-5 my-10;
+  }
+  .cards-div {
+    @apply col-span-2 flex flex-col justify-between h-full;
+  }
+  .cards-h4 {
+    @apply text-4xl text-primary-200 font-bld;
+  }
+  .cards-h6 {
+    @apply text-secondary-400 font-exbld text-lg md:text-xl hover:cursor-pointer hover:text-primary-200;
+  }
+  .cards-p {
+    @apply text-secondary-300 text-base;
+  }
+}
+
+body {
+  font-family: 'Inter-Regular';
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
